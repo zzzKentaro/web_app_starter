@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webアプリ最小テンプレート</title>
+
+  <!-- style.cssを読み込む：見た目はCSSに書く -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ここから画面に表示される内容 -->
+  <header class="site-header">
+    <h1>Webアプリ最小テンプレート</h1>
+    <p>HTML / CSS / JavaScript の役割を確認するためのサンプルです。</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>1. 文字を表示する</h2>
+      <p class="message">
+        この文章はHTMLに書かれています。文章の内容は index.html から変更できます。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. 図形を表示する</h2>
+      <p>下の四角形と線は、HTMLの部品にCSSで色や大きさを付けています。</p>
+
+      <div class="shape-box">四角形</div>
+      <div class="line"></div>
+    </section>
+
+    <section class="card">
+      <h2>3. ボタンを押すと数字が増える</h2>
+      <p>
+        JavaScriptを使って、ボタンを押した回数を数えます。
+      </p>
+
+      <button id="countButton" class="main-button">ボタンを押す</button>
+      <p class="count-text">カウント：<span id="countNumber">0</span></p>
+    </section>
+
+    <section class="card">
+      <h2>4. 色や文字を変えてみよう</h2>
+      <ul>
+        <li>文章を変える：index.html を編集する</li>
+        <li>色や大きさを変える：style.css を編集する</li>
+        <li>ボタンを押した時の動きを変える：script.js を編集する</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>高校生向けハッカソン 事前学習サンプル</p>
+  </footer>
+
+  <!-- script.jsを読み込む：動きはJavaScriptに書く -->
+  <script src="script.js"></script>
+</body>
+</html>
