@@ -14,7 +14,6 @@ let count = 0;
 
 countButton.addEventListener("click", () => {
   // countを1増やす
-  count = count + 1;
 
   // 画面に表示されている数字を更新する
   countNumber.textContent = count;
