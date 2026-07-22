@@ -12,7 +12,3 @@ const countNumber = document.querySelector("#countNumber");
 // カウントの最初の値
 let count = 0;
 
-// ボタンがクリックされたときの処理
-countButton.addEventListener("click", () => {
-
-});
