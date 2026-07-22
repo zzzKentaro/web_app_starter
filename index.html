@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Webアプリ最小テンプレート</title>
+  <title>Web制作演習用ページ</title>
 
   <!-- style.cssを読み込む：見た目はCSSに書く -->
   <link rel="stylesheet" href="style.css">
@@ -11,35 +11,37 @@
 <body>
   <!-- ここから画面に表示される内容 -->
   <header class="site-header">
-    <h1>Webアプリ最小テンプレート</h1>
-    <p>HTML / CSS / JavaScript の役割を確認するためのサンプルです。</p>
+    <h1>Web制作演習</h1>
+    <p>HTML / CSS / JavaScript の役割を確認し、実践的に書き方を学ぶ演習用のページです。</p>
   </header>
 
   <main class="container">
     <section class="card">
-      <h2>1. 文字を表示する</h2>
+      <h2>1. HTMLの役割 --- 文章の編集とページ作り</h2>
       <p class="message">
-        この文章はHTMLに書かれています。文章の内容は index.html から変更できます。
+        この文章はindex.htmlに書かれています。index.htmlを編集することで文章を変更できます。
+        文章を変更してみましょう。
       </p>
-    </section>
-
-    <section class ="card">
-      <h2>2. カードを追加してみる</h2>
-      <p>書かれている内容を変えるだけでなく、セクションを一つ作ってみましょう。</p>
+      <p class ="message">
+        また、ページの構成をindex.htmlを編集することで変更できます。
+        カードを一つ追加してみましょう
     </section>
 
     <section class="card">
-      <h2>3. 図形を表示する</h2>
-      <p>下の四角形と線は、HTMLの部品にCSSで色や大きさを付けています。</p>
+      <h2>2. cssの役割 --- 色や形、大きさの設定
+      </h2>
+      <p class ="message">style.cssでは部品の色や大きさ、位置、形を設定しています。</p>
+      <p class ="message">カードの背景色を変更したり、文字の大きさや色を変更してみましょう。</p>
+      <p class ="message">CSSで図形を書くことができます。下の四角形と線は、HTMLの部品にCSSで色や大きさを付けています。図形の形を変更してみましょう。</p>
 
       <div class="shape-box">四角形</div>
-      <div class="line"></div>
+      <div class="line">線</div>
     </section>
 
     <section class="card">
-      <h2>4. ボタンを押すと数字が増える</h2>
-      <p>
-        JavaScriptを使って、ボタンを押した回数を数えます。
+      <h2>3. JavaScriptの役割 --- 機能の実装</h2>
+      <p class="message">
+        Javascriptはページの機能を作ります。script.jsを書いてボタンを押した回数をカウントしてみましょう。
       </p>
 
       <button id="countButton" class="main-button">ボタンを押す</button>
@@ -47,17 +49,18 @@
     </section>
 
     <section class="card">
-      <h2>5. 色や文字を変えてみよう</h2>
+      <h2>5. まとめ</h2>
       <ul>
-        <li>文章を変える：index.html を編集する</li>
+        <li>文章やページ構成を変える：index.html を編集する</li>
         <li>色や大きさを変える：style.css を編集する</li>
         <li>ボタンを押した時の動きを変える：script.js を編集する</li>
+        <p class="message">時間がある人は他にも色々と触ってみてください。</p>
       </ul>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>高校生向けハッカソン 事前学習サンプル</p>
+    <p>高校生向けハッカソン 演習ページ</p>
   </footer>
 
   <!-- script.jsを読み込む：動きはJavaScriptに書く -->
